@@ -40,6 +40,10 @@ To control the electronic devices using gestures, follow these steps:
 ```bash
 python FingerCounter.py
 ```
+4. Then in another terminal type the command
+```bash
+python voice_recoginition.py
+```
 
 This command will execute the Python script responsible for voice recognition using the SpeechRecognition library. Make sure your microphone is connected and configured correctly. The script will listen for your voice commands and trigger actions accordingly to control the electronic devices connected to the relay.
 
